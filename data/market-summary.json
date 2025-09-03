@@ -1,4 +1,6 @@
 {
+  "version": "1.0",
+  "lastUpdated": "2025-10-02T10:00:00Z",
   "aiAnalysis": {
     "marketSummary": "The market showed strong bullish momentum...",
     "overallSentiment": "Bullish",
@@ -16,7 +18,7 @@
       { "symbol": "SMCI", "reason": "Server sales up 300%", "confidence": "High" }
     ],
     "potentialDownturns": [],
-    "summaryLastUpdated": "Oct 2, 2025, 10:00 AM"
+    "summaryLastUpdated": "2025-10-02T10:00:00Z"
   },
   "trendingStocks": [
     { "symbol": "TSLA", "regularMarketPrice": 250, "regularMarketChangePercent": 2.4 },
@@ -28,6 +30,5 @@
   ],
   "marketRumors": [
     { "title": "$AMC to launch crypto token", "source": "Reddit", "confidence": "Low" }
-  ],
-  "lastUpdated": "Oct 2, 2025, 10:00 AM"
+  ]
 }

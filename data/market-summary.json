@@ -1,67 +1,33 @@
 {
-  "marketSummary": "Market sentiment is mixed, with some sectors showing bullish signals while others display bearish trends.  Positive news includes Apollo Global's large sports fund, Dynavax's growth potential, and strong performances from Oxford Nanopore and Manx Financial Group. However, negative factors include Australia's market decline, a BAT downgrade, and concerns about global uncertainty impacting interest rates.  The upcoming Xiaomi phone launch and SMG's IPO also introduce uncertainty.",
-  "overallSentiment": "Mixed",
-  "sentimentReasoning": "Positive news includes several companies showing significant growth or positive announcements (Apollo Global, Dynavax, Oxford Nanopore, Manx Financial Group, Xiaomi, SMG).  However, negative news includes market declines (Australia), downgrades (BAT), and expressions of concern regarding interest rates (BOJ).  The mixed nature of the news results in an overall mixed sentiment.",
-  "sentimentBreakdown": {
-    "bullish": 6,
-    "bearish": 3,
-    "neutral": 4,
-    "totalAnalyzed": 13
+  "aiAnalysis": {
+    "marketSummary": "The market showed strong bullish momentum...",
+    "overallSentiment": "Bullish",
+    "sentimentReasoning": "Positive earnings and Fed comments",
+    "sentimentBreakdown": {
+      "bullish": 12,
+      "bearish": 3,
+      "neutral": 5,
+      "totalAnalyzed": 20
+    },
+    "bullishStocks": [
+      { "symbol": "NVDA", "reason": "AI demand surge" }
+    ],
+    "potentialBreakouts": [
+      { "symbol": "SMCI", "reason": "Server sales up 300%", "confidence": "High" }
+    ],
+    "potentialDownturns": [],
+    "summaryLastUpdated": "Oct 2, 2025, 10:00 AM"
   },
-  "bullishStocks": [
-    {
-      "symbol": "MFX",
-      "reason": "432% gain over five years"
-    },
-    {
-      "symbol": "DXVX",
-      "reason": "Stock poised for growth"
-    },
-    {
-      "symbol": "OXND.L",
-      "reason": "H1 revenue jumped 28%, loss narrowed"
-    },
-    {
-      "symbol": "SMG",
-      "reason": "Announced plans for IPO"
-    },
-    {
-      "symbol": "1810.HK",
-      "reason": "Shares climb as iPhone rival expected"
-    },
-    {
-      "symbol": "RCY",
-      "reason": "Worth considering"
-    }
+  "trendingStocks": [
+    { "symbol": "TSLA", "regularMarketPrice": 250, "regularMarketChangePercent": 2.4 },
+    { "symbol": "AAPL", "regularMarketPrice": 190, "regularMarketChangePercent": -0.8 }
   ],
-  "potentialBreakouts": [
-    {
-      "symbol": "DXVX",
-      "reason": "Growth potential",
-      "confidence": "Medium"
-    },
-    {
-      "symbol": "SMG",
-      "reason": "IPO",
-      "confidence": "Medium"
-    },
-    {
-      "symbol": "1810.HK",
-      "reason": "New phone launch",
-      "confidence": "Medium"
-    }
+  "sectorPerformance": [
+    { "name": "Technology", "change": 2.1 },
+    { "name": "Healthcare", "change": -0.5 }
   ],
-  "potentialDownturns": [
-    {
-      "symbol": "BAT",
-      "reason": "Downgraded by RBC Capital Markets",
-      "confidence": "Medium"
-    },
-    {
-      "symbol": "ASX",
-      "reason": "Market decline",
-      "confidence": "Low"
-    }
+  "marketRumors": [
+    { "title": "$AMC to launch crypto token", "source": "Reddit", "confidence": "Low" }
   ],
-  "summaryLastUpdated": "9/2/2025, 6:46:04 AM"
+  "lastUpdated": "Oct 2, 2025, 10:00 AM"
 }
